@@ -17,3 +17,24 @@ body {
     margin: 0;
     padding: 0;
 }
+
+/* main-tyylit */
+main {
+    font-size: 0.7em;
+    line-height: 1.6em;
+}
+
+/* section-tyylit */
+section {
+    max-width: 900px;
+    width: 70%;
+    margin: 20px auto;
+}
+
+/*showcase-tyylit */
+.showcase {
+    font-size: 1.7em;
+    background-color: #ffffff;
+    padding-top: 50px;
+    width: 100%;
+}
