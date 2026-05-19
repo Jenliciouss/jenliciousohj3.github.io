@@ -2,8 +2,9 @@
 
 :root
 {
-    --tausta: #f0f0f0;
+    --tausta: #ffffff;
     --teksti: #333333;
+    --header: #7e4d6e;
 }
 
 * {
@@ -18,23 +19,34 @@ body {
     padding: 0;
 }
 
+.ingressi {
+    font-size: 1.3em;
+    font-style: italic;
+}
+
 /* main-tyylit */
 main {
-    font-size: 0.7em;
+    font-size: 1.2em;
     line-height: 1.6em;
 }
 
 /* section-tyylit */
 section {
-    max-width: 900px;
+    max-width: 1000px;
     width: 70%;
     margin: 20px auto;
 }
 
 /*showcase-tyylit */
 .showcase {
-    font-size: 1.7em;
-    background-color: #ffffff;
-    padding-top: 50px;
+    font-size: 1.4em;
+    text-align: center;
+    color: var(--header);
+    background-color: #ffc2e4;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    max-width: 100%;
     width: 100%;
 }
