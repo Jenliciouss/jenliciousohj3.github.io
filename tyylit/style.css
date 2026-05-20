@@ -11,6 +11,45 @@
     box-sizing: border-box;
 }
 
+/*Keskittäminen */
+v-center {
+    position:absolute;
+    top: 0;
+}
+
+/*Header-tyylit */
+header {
+    background-color: var(--header);
+    color: #ffffff;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+header .logo {
+    float:left;
+    font-size: 2em;
+}
+
+header nav  {
+    float:right;
+}
+
+header nav a {
+    display: inline-block;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 0.4em;
+    font-size: 1.2em;
+} 
+
+header nav a:hover {
+    background-color: #ffffff;
+    color: var(--header);
+    border-radius: 5px;
+}
+
 body {
     font-family: 'Nunito', sans-serif;
     background-color: var(--tausta);
@@ -24,10 +63,18 @@ body {
     font-style: italic;
 }
 
+.ingressi::first-letter {
+    font-size: 3em;
+    font-weight: bold;
+    float: left;
+    margin-right: 0.1em;
+}
+
 /* main-tyylit */
 main {
     font-size: 1.2em;
     line-height: 1.6em;
+    padding-top: 40px;
 }
 
 /* section-tyylit */
@@ -49,4 +96,11 @@ section {
     padding-right: 30px;
     max-width: 100%;
     width: 100%;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: var(--header);
+    color: #ffffff;
 }
