@@ -75,6 +75,7 @@ main {
     font-size: 1.2em;
     line-height: 1.6em;
     padding-top: 40px;
+    padding-bottom: 50px;
 }
 
 /* section-tyylit */
@@ -102,8 +103,7 @@ section {
     display:grid;
     grid-template-columns: auto auto;
     gap: 20px;
-    align-items: center;
-}
+}   
 
 
 
@@ -112,4 +112,8 @@ footer {
     padding: 20px;
     background-color: var(--header);
     color: #ffffff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+
 }
